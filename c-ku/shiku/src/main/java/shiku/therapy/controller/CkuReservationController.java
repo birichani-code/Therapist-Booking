@@ -28,14 +28,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
-public class HotelReservationController {
+public class CkuReservationController {
 
 	private UserService userService;
 
 	private ReservationService reservationService;
 	
 	@Autowired
-	public HotelReservationController(UserService userService, ReservationService reservationService) {
+	public CkuReservationController(UserService userService, ReservationService reservationService) {
 		this.userService = userService;
 		this.reservationService = reservationService;
 	}

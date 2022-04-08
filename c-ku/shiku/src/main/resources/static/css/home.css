@@ -272,9 +272,9 @@ header .logo img {
 /* PARALLAX PAGE STYLES START */
 .cover-main {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)),
-			to(rgba(0, 0, 0, 0.75))), url('../images/header/wallpaper.jpg') right bottom;
+			to(rgba(0, 0, 0, 0.75))), url('../images/header/back.jpeg') right bottom;
 	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-		url('../images/header/wallpaper.jpg') center;
+		url('../images/header/back.jpeg') center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 75vh;

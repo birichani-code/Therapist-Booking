@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spa-parlourBooking/dan-parlour/Hotel-Reservation-Postgres.iml" filepath="$PROJECT_DIR$/spa-parlourBooking/dan-parlour/Hotel-Reservation-Postgres.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shiku.iml" filepath="$PROJECT_DIR$/.idea/shiku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-ku/shiku/shiku-therapy.iml" filepath="$PROJECT_DIR$/c-ku/shiku/shiku-therapy.iml" />
     </modules>
   </component>
 </project>

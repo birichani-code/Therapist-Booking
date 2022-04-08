@@ -35,7 +35,7 @@
 				<!-- Menu bar -->
 				<ul class="menu">
 					<li><a href="#home">Reservations</a></li>
-					<li><a href="#book">Booking</a></li>
+					<li><a href="#book">Appointments</a></li>
 				</ul>
 			</nav>
 			<div class="menu-trigger js-menu-trigger"></div>
@@ -55,9 +55,9 @@
 
 	<!-- Hotel Booking Section -->
 	<div class="container">
-		<h2 class="sub-title" id="book">Hotel Booking</h2>
+		<h2 class="sub-title" id="book">Mind counselling Therapy Appointments</h2>
 		<div class="hotel_reserve_box card">
-			<h3>Booking Form</h3>
+			<h3>Appointment Form</h3>
 			<br>
 
 			<!-- Reservation form -->
@@ -67,29 +67,27 @@
 				<div class="form-group">
 				
 					<!-- Room Type -->
-					<input type="hidden" th:field="*{id}" /> <label>Room/SuiteType</label>
+					<input type="hidden" th:field="*{id}" /> <label>Service</label>
 					<select class="form-control prc" th:field="*{room}" id="room_type" required>
-						<option value="Massages">Massages</option>
-						<option value="Facial Treatment">Facial Treatment</option>
-						<option value="Tissue Massage">Tissue Massage</option>
-						<option value="HairCuts">HairCuts</option>
-						<option value="Hair Salon ">Hair Salon</option>
-						<option value="Body Treatments">Body Treatments</option>
-						<option value="Manicure">Manicure </option>
-						<option value="Pedicure Services">Pedicure
+						<option value="Spina Alignment">Spina Alignment</option>
+						<option value="Steam & Sauna Therapy">Steam & Sauna Therapy</option>
+						<option value="TTherapeutic Massage">Therapeutic Massage</option>
+						<option value="Neuro-Therapy">Neuro-Therapy</option>
+						<option value="Hydro-Therapy "> Hydro-Therapy</option>
+						<option value="Physical Therapy">Physical Therapy
 							Services</option>
 					</select>
 				</div>
 
 				<!-- Period of Stay -->
 				<div class="form-group">
-					<label>Number of Beautician </label> <input class="form-control prc" id="stay-per" th:field="*{stayPeriod}"
+					<label>Number of Therapist </label> <input class="form-control prc" id="stay-per" th:field="*{stayPeriod}"
 						placeholder="Days" pattern="^(?:[1-9]|[1-4][0-9]|50)$" type="number" required />
 				</div>
 
 				<!-- Number of Rooms -->
 				<div class="form-group">
-					<label>Room Number Booked</label> <input class="form-control prc" id="room_number"
+					<label> Room Service Booked </label> <input class="form-control prc" id="room_number"
 						th:field="*{rooms}" pattern="^(?:[1-9]|[1-4][0-9]|50)$" type="number" placeholder="Rooms"
 						required />
 				</div>
